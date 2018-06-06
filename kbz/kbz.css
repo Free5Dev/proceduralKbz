@@ -1,0 +1,104 @@
+/*font-family: 'Berkshire Swash', cursive;*/
+/*font-family: 'Kaushan Script', cursive;*/
+body
+{
+	font-family: 'Trebuchet MS',serif;
+}
+a,a:hover
+{
+	text-decoration: none;
+	text-transform: uppercase;
+}
+ul
+{
+	list-style-type: none;
+}
+img
+{
+	max-width: 100%;
+}
+#entete
+{
+	background-color: rgb(51,51,51);
+	display: flex;
+	align-items: center;
+	padding: 10px;
+}
+.enteteGauche
+{
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	text-align: center;
+}
+.enteteGauche .enteteImgFcbk,.enteteGauche .enteteImgTw,.enteteGauche .enteteImgYt,.enteteGauche .enteteImgIn
+{
+	margin-right: 5px;
+	border:1px solid #fff;
+	height: 30px;
+	width: 30px;
+}
+.enteteGauche .enteteImgFcbk:hover,.enteteGauche .enteteImgIn:hover
+{
+	background-color: blue;
+	border:1px solid blue;
+}
+.enteteGauche .enteteImgTw:hover
+{
+	background-color: #1da1f2;
+	border:1px solid #1da1f2;
+}
+.enteteGauche .enteteImgYt:hover
+{
+	background-color: red;
+	border:1px solid red;
+}
+.enteteDroite
+{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	color: #fff;
+	flex-wrap: wrap;
+}
+.enteteDroite p 
+{
+	height: 100%;
+	border: 1px solid red;
+}
+/*navbar*/
+.navbar-default
+{
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+.navbar-default .navbar-brand
+{
+	font-family:'Berkshire Swash', cursive;
+	font-size: 1.8em;
+}
+.navbar-default .nav-link,.navbar-default .dropdown-item
+{
+	color: rgb(51,51,51);
+	font-family:'Kaushan Script', cursive;
+}
+.navbar-default .nav-link:hover,.navbar-default .dropdown-item:hover
+{
+	color: red;
+	font-family:'Kaushan Script', cursive;
+}
+.navbar-default .navbar-toggler
+{
+	/*border:1px solid black;*/
+}
+/*fin navbar default*/
+/*section*/
+#kbzPage
+{
+	
+}
+.kbzContenu
+{
+	
+}
+/*-------------------------------------------------------------------KBZ---------------------------------------------------------------------*/
